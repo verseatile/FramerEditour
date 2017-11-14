@@ -1,0 +1,22 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    background-color: #333333;
+    /* overflow-y: hidden; */
+}
+
+.title-bar {
+    -webkit-app-region: drag;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    z-index: 4000;
+}
+
+.logo {
+    height: 25px;
+}
